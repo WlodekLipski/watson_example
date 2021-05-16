@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  color: #fff;
+  position: relative;
+    /* Add the blur effect */
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(./img/mobileTop.jpg);
+  height: 70vh;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
